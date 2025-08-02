@@ -1,0 +1,7 @@
+def greet(name):
+    """This function greets the person passed as an argument."""
+    return f"Hello, {name}!"
+
+# Calling the function
+message = greet("Alice")
+print(message)
